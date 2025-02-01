@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotação do Dólar</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adicionando o Axios via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dólar Hoje</h1>
+        <p id="cotacao">R$ ----,--</p>
+        <button id="btnCotacao">Obter Cotação</button> <!-- Botão para disparar a requisição -->
+    </div>
+
+    <!-- Movendo o script.js para o final do body, com defer para carregar após o conteúdo -->
+    <script src="script.js" defer></script>
+</body>
+</html>
